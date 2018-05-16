@@ -1,0 +1,27 @@
+group = 'com.koe'
+version = '0.1'
+
+
+buildscript {
+    ext.kotlin_version = '1.2.31'
+
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+    }
+}
+
+
+
+apply plugin: 'kotlin'
+
+dependencies {
+    compile 'net.dv8tion:JDA:3.6.0_365'
+    compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+}
+
+repositories {
+    jcenter()
+}
