@@ -1,0 +1,9 @@
+.idea/
+/build
+*.conf
+.gradle
+*.iml
+
+!bot.conf
+
+*.log
